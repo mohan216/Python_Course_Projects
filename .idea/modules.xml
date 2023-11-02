@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day45_webscraping_beautifulsoup/.idea/Day45_webscraping_beautifulsoup.iml" filepath="$PROJECT_DIR$/Day45_webscraping_beautifulsoup/.idea/Day45_webscraping_beautifulsoup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day46_spotifyplaylist/.idea/Day46_spotifyplaylist.iml" filepath="$PROJECT_DIR$/Day46_spotifyplaylist/.idea/Day46_spotifyplaylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day54_Flaskwebdev/.idea/Day54_Flaskwebdev.iml" filepath="$PROJECT_DIR$/Day54_Flaskwebdev/.idea/Day54_Flaskwebdev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day56_flask_speeddev/.idea/Day56_flask_speeddev.iml" filepath="$PROJECT_DIR$/Day56_flask_speeddev/.idea/Day56_flask_speeddev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day57_Jinjaflaskapi/.idea/Day57_Jinjaflaskapi.iml" filepath="$PROJECT_DIR$/Day57_Jinjaflaskapi/.idea/Day57_Jinjaflaskapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Python_Course_project.iml" filepath="$PROJECT_DIR$/.idea/Python_Course_project.iml" />
+    </modules>
+  </component>
+</project>

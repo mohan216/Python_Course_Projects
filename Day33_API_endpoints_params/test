@@ -1,0 +1,46 @@
+# Import required libraries
+import requests
+from bs4 import BeautifulSoup
+
+# Define the URL of the website you want to scrape
+url = "https://example.com"
+
+# Send an HTTP GET request to the URL and retrieve the HTML content
+response = requests.get(url)
+html = response.text
+
+# Create a BeautifulSoup object to parse the HTML
+soup = BeautifulSoup(html, 'html.parser')
+
+# Find an element by tag and class
+element = soup.find('tag_name', class_='class_name')
+if element:
+    print("Element found:", element.text)
+else:
+    print("Element not found")
+
+# Find all elements with a specific tag
+elements = soup.find_all('tag_name')
+if elements:
+    print("Elements found:", len(elements))
+else:
+    print("No elements found")
+
+# Access the text content of an element
+if element:
+    text = element.text
+    print("Element text:", text)
+
+# Extract attributes from an element
+if element:
+    attribute_value = element['attribute_name']
+    print("Attribute value:", attribute_value)
+
+# Iterate through elements and process data
+for element in elements:
+    # Process each element as needed
+    pass
+
+# You can further process and store the extracted data as required.
+
+# For web scraping, replace 'tag_name' and 'class_name' with the actual HTML tags and classes you want to scrape.
